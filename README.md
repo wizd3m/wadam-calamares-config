@@ -1,0 +1,1 @@
+# wadam-calamares-config
