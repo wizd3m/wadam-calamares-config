@@ -121,11 +121,11 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         Alci
+    productName:         Wadam Linux
     shortProductName:    Generic
     version:             2021.01.1
     shortVersion:        2020.01
-    versionedName:       Alci
+    versionedName:       Brianna
     #shortVersionedName:  Generic 2017.8
     bootloaderEntryName: Generic
     #productUrl:          https://calamares.io/
@@ -166,7 +166,7 @@ images:
     productIcon:         "squid.png"
     productLogo:         "squid.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "2-alci.png"
+    productWelcome:      "2-wadam.svg"
 
 # Colors for text and background components.
 #
