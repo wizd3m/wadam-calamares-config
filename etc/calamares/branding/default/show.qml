@@ -41,16 +41,16 @@ Presentation
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
-    	}
+    	
 
-    Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "Welcome to"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-    	}
+        Text {
+            anchors.horizontalCenter: background.horizontalCenter
+            anchors.top: background.bottom
+            text: "Welcome to"
+            wrapMode: Text.WordWrap
+            width: presentation.width
+            horizontalAlignment: Text.Center
+        }
     }
 
     Slide {
@@ -60,22 +60,22 @@ Presentation
 
     Image {
         id: background2
-        source: "2-alci.svg"
+        source: "2-wadam.svg"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
-    	}
+    	
 
-    Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "Wadam Linux"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-    	}
+        Text {
+            anchors.horizontalCenter: background.horizontalCenter
+            anchors.top: background.bottom
+            text: "Wadam Linux"
+            wrapMode: Text.WordWrap
+            width: presentation.width
+            horizontalAlignment: Text.Center
+        }
     }
 
 
