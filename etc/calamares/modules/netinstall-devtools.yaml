@@ -1,0 +1,15 @@
+- name: "Devtools"
+  description: "Devtools"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  packages:
+    - atom
+    - archiso
+    - base-devel
+    - code
+    - emacs
+    - geany
+    - geany-plugins
+    - visual-studio-code-bin 
