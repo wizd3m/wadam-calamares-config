@@ -41,7 +41,7 @@ Presentation
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
-    }
+        }   
 
     Text {
         anchors.horizontalCenter: background.horizontalCenter
@@ -50,6 +50,7 @@ Presentation
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
+        }
     }
 
     Slide {
@@ -65,8 +66,7 @@ Presentation
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
-    	
-    }
+        }
     
     Text {
         anchors.horizontalCenter: background.horizontalCenter
@@ -75,8 +75,8 @@ Presentation
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
+        }
     }
-
 
     // When this slideshow is loaded as a V1 slideshow, only
     // activatedInCalamares is set, which starts the timer (see above).
